@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+</head>
+<body>
+	 <p id="demo"></p>
+	<script type="text/javascript">
+		/*const date=new Date();
+		console.log(date)*/
+		/*const d=new Date("2003-5-7");
+		d.getFullYear();*/
+		/*const d = new Date("2021-03-25");
+		document.getElementById("demo").innerHTML = d.getMonth() +1;*/
+		const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+		const d = new Date("2021-03-25");
+		let month = months[d.getMonth()];
+		document.getElementById("demo").innerHTML = month;
+	</script>
+	</script>
+</body>
+</html>
